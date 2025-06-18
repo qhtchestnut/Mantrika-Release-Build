@@ -7,4 +7,4 @@
 v1.0.0: Initial release
 
 @provides
-reaper_MantrikaTools_x64.dll https://github.com/qhtchestnut/Mantrika-Release-Build/releases/download/v1.0.0/reaper_MantrikaTools_x64.dll
+[windows] ../reaper_MantrikaTools_x64.dll
