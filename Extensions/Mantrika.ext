@@ -2,7 +2,9 @@
 @version 1.0.0
 @author Mantrika
 @about Mantrika REAPER extension tools for audio processing and workflow optimization.
+
 @changelog
 - v1.0.0: Initial release
+
 @provides
 [windows] reaper_MantrikaTools_x64.dll https://github.com/qhtchestnut/Mantrika-Release-Build/releases/download/v$version/reaper_MantrikaTools_x64.dll
