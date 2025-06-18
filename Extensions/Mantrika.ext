@@ -1,0 +1,31 @@
+@description Mantrika REAPER Extension
+@version 1.0.0
+@author Mantrika
+@about
+
+# Mantrika REAPER Extension
+
+Mantrika开发的REAPER扩展工具，提供增强的音频处理和工作流程优化功能。
+
+## 功能特性
+- 音频处理增强功能
+- 工作流程优化工具  
+- 实用的编辑工具
+
+## 使用方法
+1. 通过ReaPack安装后重启REAPER
+2. 在Extensions菜单中找到Mantrika相关选项
+3. 根据具体功能说明进行使用
+
+## 系统要求
+- REAPER 7.0+
+- Windows 10+ (仅支持64位)
+
+## 支持
+如有问题请联系：qht.chestnut@gmail.com
+
+@changelog
+- v1.0.0: 初始版本发布
+
+@provides
+[windows] reaper_MantrikaTools_x64.dll https://github.com/qhtchestnut/Mantrika-Release-Build/releases/download/v$version/reaper_MantrikaTools_x64.dll
