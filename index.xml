@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mantrika Tools" commit="194c49530bd23347ba29a520fee1994e6026c2b7">
+<index version="1" name="Mantrika Tools" commit="bc9ed148febb88ab3ee63291d7d838312d15a274">
+  <category name="Extensions">
+    <reapack name="Mantrika.ext" type="extension" desc="Mantrika REAPER Extension">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Mantrika REAPER extension tools for audio processing and workflow optimization.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0.0" author="Mantrika" time="2025-06-18T18:36:21Z">
+        <changelog><![CDATA[• v1.0.0: Initial release]]></changelog>
+        <source platform="win64" file="reaper_MantrikaTools_x64.dll">https://github.com/qhtchestnut/Mantrika-Release-Build/releases/download/v1.0.0/reaper_MantrikaTools_x64.dll</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
