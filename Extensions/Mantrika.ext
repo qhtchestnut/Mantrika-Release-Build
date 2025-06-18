@@ -1,22 +1,8 @@
 @description Mantrika REAPER Extension
 @version 1.0.0
 @author Mantrika
-@about
-This package contains Mantrika REAPER extension tools.
-
-Features:
-- Audio processing enhancement
-- Workflow optimization tools  
-- Practical editing tools
-
-System Requirements:
-- REAPER 7.0+
-- Windows 10+ (64-bit only)
-
-Contact: qht.chestnut@gmail.com
-
+@about Mantrika REAPER extension tools for audio processing and workflow optimization.
 @changelog
 - v1.0.0: Initial release
-
 @provides
 [windows] reaper_MantrikaTools_x64.dll https://github.com/qhtchestnut/Mantrika-Release-Build/releases/download/v$version/reaper_MantrikaTools_x64.dll
