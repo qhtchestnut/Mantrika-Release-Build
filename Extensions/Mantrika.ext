@@ -7,4 +7,4 @@
 v1.0.0: Initial release
 
 @provides
-[windows] ../reaper_MantrikaTools_x64.dll
+reaper_MantrikaTools_x64.dll
