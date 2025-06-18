@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mantrika Tools" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+<index version="1" name="Mantrika Tools" commit="c1b0c464526166a71f49514950981f9a676ee33f">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
@@ -22,33 +22,53 @@ Markdown
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
-reapack-index
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Mantrika Tools\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u36825 ?\u26159 ?\u19968 ?\u20010 ?\u21253 ?\u21547 ?Mantrika\u24320 ?\u21457 ?\u30340 ?REAPER\u25193 ?\u23637 ?\u24037 ?\u20855 ?\u30340 ?ReaPack\u20179 ?\u24211 ?\u12290 ?\u36890 ?\u36807 ?ReaPack\u21487 ?\u20197 ?\u36731 ?\u26494 ?\u23433 ?\u35013 ?\u21644 ?\u26356 ?\u26032 ?\u36825 ?\u20123 ?\u25193 ?\u23637 ?\u12290 ?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u21253 ?\u21547 ?\u30340 ?\u25193 ?\u23637 ?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 [\u20320 ?\u30340 ?\u25193 ?\u23637 ?\u21517 ?\u31216 ?]\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b \u29256 ?\u26412 ?}: 1.0.0\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b \u21151 ?\u33021 ?}: [\u22312 ?\u36825 ?\u37324 ?\u31616 ?\u35201 ?\u25551 ?\u36848 ?\u20320 ?\u30340 ?\u25193 ?\u23637 ?\u20027 ?\u35201 ?\u21151 ?\u33021 ?]\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b \u20860 ?\u23481 ?\u24615 ?}: Windows/macOS\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b \u35201 ?\u27714 ?}: REAPER 7.0+\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u23433 ?\u35013 ?\u26041 ?\u27861 ?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 \u20808 ?\u20915 ?\u26465 ?\u20214 ?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u30830 ?\u20445 ?\u20320 ?\u24050 ?\u32463 ?\u23433 ?\u35013 ?\u20102 ?ReaPack\u25193 ?\u23637 ?\u12290 ?\u22914 ?\u26524 ?\u36824 ?\u27809 ?\u26377 ?\u23433 ?\u35013 ?\u65306 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab \u35775 ?\u38382 ? {\field{\*\fldinst{HYPERLINK "https://reapack.com"}}{\fldrslt{\ul
+reapack.com
 }}}
- running from GitHub Actions.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
-index.xml
-}}}
- when using this template. This will be the name shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
-README.md
-}}}
-). This will be the text shown when using ReaPack's "About this repository" feature.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-Packaging Documentation
-}}}
- on reapack-index's wiki.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
-https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
-}}}
-.\par}
+ \u19979 ?\u36733 ?ReaPack\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab \u23558 ?\u19979 ?\u36733 ?\u30340 ?\u25991 ?\u20214 ?\u25918 ?\u20837 ?REAPER\u30340 ?UserPlugins\u25991 ?\u20214 ?\u22841 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab \u37325 ?\u21551 ?REAPER\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 \u28155 ?\u21152 ?\u27492 ?\u20179 ?\u24211 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab \u22312 ?REAPER\u20013 ?\u25171 ?\u24320 ? {\f1 Extensions > ReaPack > Import repositories}\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab \u31896 ?\u36148 ?\u20197 ?\u19979 ?URL\u65306 ?https://github.com/qhtchestnut/Mantrika-Release-Build/raw/master/index.xml\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 3.\tx360\tab 3.\tx360\tab \u28857 ?\u20987 ?OK\u23436 ?\u25104 ?\u23548 ?\u20837 ?\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab \u22312 ? {\f1 Extensions > ReaPack > Browse packages} \u20013 ?\u21487 ?\u20197 ?\u25214 ?\u21040 ?Mantrika Tools\u20998 ?\u31867 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 5.\tx360\tab \u36873 ?\u25321 ?\u20320 ?\u38656 ?\u35201 ?\u30340 ?\u25193 ?\u23637 ?\u24182 ?\u23433 ?\u35013 ?\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u21151 ?\u33021 ?\u29305 ?\u24615 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \u26242 ?\u26102 ?\u21482 ?\u26159 ?\u27979 ?\u35797 ?\u65292 ?\u25964 ?\u35831 ?\u26399 ?\u24453 ?~\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u20351 ?\u29992 ?\u35828 ?\u26126 ?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u23433 ?\u35013 ?\u25193 ?\u23637 ?\u21518 ?\u65306 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab \u37325 ?\u21551 ?REAPER\u20197 ?\u21152 ?\u36733 ?\u25193 ?\u23637 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab \u22312 ?Extensions\u33756 ?\u21333 ?\u20013 ?\u25214 ?\u21040 ?\u30456 ?\u24212 ?\u30340 ?\u25193 ?\u23637 ?\u36873 ?\u39033 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab \u21442 ?\u32771 ?\u27599 ?\u20010 ?\u25193 ?\u23637 ?\u30340 ?\u20855 ?\u20307 ?\u35828 ?\u26126 ?\u36827 ?\u34892 ?\u20351 ?\u29992 ?\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u31995 ?\u32479 ?\u35201 ?\u27714 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b REAPER}: 7.0\u25110 ?\u26356 ?\u39640 ?\u29256 ?\u26412 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b \u25805 ?\u20316 ?\u31995 ?\u32479 ?}:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Windows 10\u25110 ?\u26356 ?\u39640 ?\u29256 ?\u26412 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab macOS 10.14\u25110 ?\u26356 ?\u39640 ?\u29256 ?\u26412 ?\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u25903 ?\u25345 ?\u19982 ?\u21453 ?\u39304 ?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u22914 ?\u26524 ?\u36935 ?\u21040 ?\u38382 ?\u39064 ?\u25110 ?\u26377 ?\u24314 ?\u35758 ?\u65306 ?\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab qht.chestnut@gmail.com\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u26356 ?\u26032 ?\u26085 ?\u24535 ?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 v1.0.0 (2025-06-19)\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \u55356 ?\u57225 ? \u21021 ?\u22987 ?\u29256 ?\u26412 ?\u21457 ?\u24067 ?\sa180\par}
+{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\i \u30001 ?Mantrika\u24320 ?\u21457 ? | \u36890 ?\u36807 ?ReaPack\u20998 ?\u21457 ?}\par}
 }
 ]]></description>
   </metadata>
