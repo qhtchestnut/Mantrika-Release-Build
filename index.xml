@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mantrika Tools" commit="bc9ed148febb88ab3ee63291d7d838312d15a274">
+<index version="1" name="Mantrika Tools" commit="c81ecf89c26d6d1d4079a4c227d22e9d15b559bf">
   <category name="Extensions">
-    <reapack name="Mantrika.ext" type="extension" desc="Mantrika REAPER Extension">
+    <reapack name="Mantrika.ext" type="extension" desc="Mantrika Tools">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
